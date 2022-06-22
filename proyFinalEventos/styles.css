@@ -1,0 +1,124 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(10, 104, 142);
+}
+
+header {
+    margin: 0%;
+    padding: 0%;
+    width:100%;
+    height: auto;
+    background-color: rgb(10, 104, 142);
+}
+
+.redes {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+    flex: 0 0 auto;
+    width:100%;
+    height: auto;
+    flex-wrap: nowrap;
+    flex-direction:row-reverse;
+    align-items:center;
+    border-bottom: solid 1px #01023F;
+}
+
+img {
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 3%;
+}
+
+main {
+    display: grid;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 900px;
+    background-image: url(./image/seguro-caucion-informacion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divInicio {
+    height: 70%;
+}
+
+h1 {
+    margin: 2% 1%;
+    color: #01023F;
+    font-size: 75px;
+    font-family: fantasy;
+    text-shadow: 2px 2px 5px rgb(70, 135, 248)
+}
+
+h2 {
+    margin-bottom: 2%;
+    margin-left: 1%;
+    width: 70%;
+    color: #01023F;
+    font-size: x-large;
+    font-family: system-ui;
+}
+
+p {
+    margin-bottom: 2%;
+    margin-left: 1%;
+    width: 55%;
+    color: #01023F;
+    font-size: large;
+    font-family: system-ui;
+}
+
+.formulario {
+    display: grid;
+    width: 45%;
+    padding: 1%;
+    padding-left: 2%;
+    align-content: start;
+}
+
+.divFormulario {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    align-items: start;
+}
+
+label, input, select {
+    font-family: system-ui;
+    font-size: large;
+    color: #01023F;
+    border: none;
+    width: 12rem;
+    height: 2.5rem;
+}
+
+button {
+    padding: 1.5%;
+    margin-top: 1.5%;
+    grid-column: -3/-1;
+    background-color: #01023F;
+    font-size: 1.5rem;
+    color: white;
+    font-family: system-ui;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(10, 104, 142);
+}
+
+.seleccion {
+    font-size: xx-large;
+    font-family:fantasy;
+    text-shadow: 2px 2px 5px rgb(70, 135, 248)
+}
+
+.fondoCuadroTexto{
+    background-color: rgb(201, 223, 248);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <header>
+            <div class="redes">
+                <img src="./image/whatsApp.png" alt="logo WhatsApp">
+                <img src="./image/instagram.png" alt="logo Instagram">
+                <img src="./image/twitter.png" alt="logo Twitter">
+            </div>
+    </header>
+    <main>
+        <div class="divInicio">
+            <h1 id="tituloPrincipal">Cotizá tu seguro de Caución</h1>
+            <h2 id="tituloSecundario">Garantías de Alquiler para Propiedades</h2>    
+            <p>C&G Broker de Seguros le asegura al cliente la obtención de los mejores seguros de caución para alquiler, siempre con la seriedad y la responsabilidad que nos caracterizan desde hace ya muchos años trabajando específicamente en el sector. Contamos con una amplia variedad de posibilidades en términos de cobertura, con lo cual, así lo creemos, estamos en condiciones de brindarle uno de los más completos servicios del ramo: </p>
+        </div>        
+        <form action="" class="formulario">
+            <div class="divFormulario" id="cotizadorAlquiler">
+                <div>
+                    <label for="Producto">Ingrese el importe del alquiler:</label>
+                </div>    
+                <div>    
+                    <input id="importeAlquiler" type="number" placeholder="$80000" >
+                </div>
+                <div>
+                    <label for="leyendaExpensas">Ingrese importe de las expensas actuales </label>
+                </div>    
+                <div> 
+                    <input id="valorExpensas" type="number" placeholder="$10000" >
+                </div>
+                <div>
+                    <label for="Vivienda">Seleccione el tipo de alquiler: </label>
+                </div>    
+                <div> 
+                    <select>
+                        <option selected>Alquiler para...</option>
+                        <option class="tiposAlquileres" value="1">Vivienda particular</option>
+                        <option class="tiposAlquileres" value="2">Bienes muebles</option>
+                        <option class="tiposAlquileres" value="3">Bienes inmuebles con destino comercial</option>
+                        <option class="tiposAlquileres" value="4">Bienes inmuebles con destino industrial</option>
+                    </select>    
+                </div>
+                <div>   
+                    <label for="Meses">Duración del contrato:</label>
+                </div>    
+                <div> 
+                    <select>
+                        <option selected>Nro. de meses</option>
+                        <option class="cantidadMeses" id="meses6" value="1">6</option>
+                        <option class="cantidadMeses" id="meses12" value="2">12</option>
+                        <option class="cantidadMeses" id="meses18" value="3">18</option>
+                        <option class="cantidadMeses" id="meses24" value="4">24</option>
+                        <option class="cantidadMeses" id="meses30" value="5">30</option>
+                        <option class="cantidadMeses" id="meses36" value="6">36</option>
+                    </select>    
+                </div>
+               <button class="seleccion" type="Cotizar" id="btncalcular">Calcular</button>
+            </div>
+        </form>  
+        <form action="" class="formulario">
+            <div class="divFormulario">
+                <div>
+                    <label for="Valor">Costo del servicio:</label>
+                </div>    
+                <div>    
+                    <input type="number" placeholder="$" disabled>
+                </div>
+            </div>
+            <button class="seleccion" type="Cotizar" id="btsolicitar">Solicitar</button>
+        </form>  
+    </main> 
+    <footer>
+        <h6>® 2020 Todos los derechos reservados – Design by Aurea Agency</h6>
+    </footer>  
+    <script src="./scripts.js"></script>     
+</body>
+</html>
